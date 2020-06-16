@@ -1,0 +1,170 @@
+@font-face {
+    font-family: ComLight; /* Имя шрифта */
+    src: url(../fonts/PFDinTextCompPro-Light.ttf); /* Путь к файлу со шрифтом */
+   }
+  @font-face {
+    font-family: ComMed; /* Имя шрифта */
+    src: url(../fonts/PFDinTextCompPro-Medium.ttf); /* Путь к файлу со шрифтом */
+   }
+ @font-face {
+    font-family: BookExThin; /* Имя шрифта */
+    src: url(../fonts/PFHandbookPro-ExtraThin.ttf); /* Путь к файлу со шрифтом */
+   }
+   @font-face {
+    font-family: BookMed; /* Имя шрифта */
+    src: url(../fonts/PFHandbookPro-Medium.ttf); /* Путь к файлу со шрифтом */
+   }
+   @font-face {
+    font-family: BookReg; /* Имя шрифта */
+    src: url(../fonts/PFHandbookPro-Regular.ttf); /* Путь к файлу со шрифтом */
+   }
+   @font-face {
+    font-family: BookThin; /* Имя шрифта */
+    src: url(../fonts/PFHandbookPro-Thin.ttf); /* Путь к файлу со шрифтом */
+   }
+		$lg: 580px;
+html, 
+body {
+  margin: 0;
+  padding: 10px;
+  background: darken(whitesmoke, 10%);
+  color:#3C3C3B;
+  font-family: BookReg !important;
+}
+#instafeed {
+  max-width:1080px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;}
+  
+ #instafeed  a {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 25%;
+    background: white; }
+    
+    @media only screen and (min-width: $lg) {
+      width: 25%;
+    }
+    
+  #instafeed   img {
+      display: block;
+      width: 95%;
+    }
+ .faligner, .zag, .faligner p{color:#fff !important;}
+img{width:100%;}
+.social img{width:32px; margin-right:10px;}
+header span a img{width:30px;margin-right: 10px;}
+a, p ,span, div, .navbar a {color:#3C3C3B}
+
+   
+   h1, h2{font-family: ComMed;color:#E20613; } 
+   h2 {font-size: 3rem !important; text-align:center;margin-bottom:1.5rem !important}
+   footer{background:#1d143e;}
+   header{margin-top:40px;margin-bottom: 25px;}
+   #navbarNavAltMarkup{justify-content: flex-end; padding-right:20px;}
+   .menu-contact{display: flex;
+    align-items: center;
+    justify-content: flex-end}
+	.reload{background:url('../img/bg-reload.png') no-repeat;
+	background-size: cover;
+	color:#fff;line-height:1
+	}
+	.reload p.zag{font-size:4rem; }
+	.reload p{font-size:1.8rem;}
+	.reload a{background:#E20613;font-size:1rem; color:#fff;padding: 5px 50px;text-transform:uppercase;
+    border-radius: 10px;}
+	.reload a:hover{color:#fff}
+	.why-au img{width:110px;margin-top: 0.5rem;
+    margin-bottom: 1.5rem;}
+	.why-au span{display:block}
+	.dynamic ul{list-style:inside; color:#E20613}
+	.dynamic ul span{color:#3C3C3B;}
+	.reddy{color:#E20613; display:block}
+	.btn-z a{background:#1D143E;padding: 10px 50px;color:#fff;border-radius: 10px;text-transform:uppercase}
+	.btn-z a:hover{color:#fff;}
+	.btn-z{margin-top: 2rem;}
+	.dynamic ul{margin-bottom:1.5rem}
+	.dynamic ul li{margin-bottom:0.6rem}
+	hr{border: 1.1px solid #1D143E !important;background: #1d143e; border-radius:12px;    margin-top: 3.5rem !important;
+    margin-bottom: 3.5rem !important;}
+	header hr{    margin-top: 0.5rem !important;
+    margin-bottom: 0 !important;}
+	.table-price img{width:210px;}
+	.navbar{font-family: BookReg !important; font-size: 1.8rem}
+	.faligner{    display: flex;font-family: ComMed;
+    flex-direction: column;
+    justify-content: center;}
+	.why-au span{font-family: BookReg;font-size:1.6rem;line-height: 1;}
+	.reddy {text-transform:uppercase;font-size:1.8rem;font-family: BookReg;line-height: 1.2;margin-bottom: 1rem !important; }
+	.dynamic ul li span{font-family: BookReg;font-size:1.6rem;line-height: 1.2; }
+	.about-us p{font-family: BookReg;font-size:1.6rem; line-height: 1.2;}
+	.table-price span{font-family: BookReg;font-size:1.6rem;line-height: 1.2;    padding-bottom: 0.5rem;
+    display: block;}
+	.table-price table { margin: 10px 0 0 20px;}
+	.table-price td{ padding: 3px 15px;font-family: BookReg;font-size:1.6rem;}
+	.maps p, .maps a{font-family: BookReg;font-size:1.6rem; color:#3C3C3B}
+	.maps .d-flex{padding-left:40px;}
+	footer span, footer a, footer p{color:#fff !important;}
+footer span{font-family: ComMed;font-size:1.6rem;}
+footer p{font-family: BookReg;font-size:1.2rem;line-height: 1.2}
+footer a img{width:22px; height:22px; margin-right:10px;}
+footer a {display:flex; flex-direction:row; }
+.fotcont a{margin: 10px 0;}
+footer{padding: 40px 0; margin-top: 50px;}
+#submit{
+  background-color: #E20613;
+  color:#fff;
+  border:none;
+  border-radius: 5px;
+  padding: 10px;
+}
+input{
+  width: 100%;
+  background-color: #fff;
+  border-radius: 5px;
+  border:1px solid #aeaeae;
+  padding: 10px;
+  margin-bottom: 10px !important;
+  color: #000;
+}
+.sliderImage{
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  background-position: center center;
+}
+.customLink, .customLink:visited, .customLink:hover{
+  text-decoration: none;
+}
+.maps iframe{width: 100% !important;
+    height: 350px !important;}
+@media all and (max-width:480px){
+	.gismap{display:none;}
+	#instafeed a{width:100% !important;}
+	.table-price td{padding: 3px !important}
+	.dynamic ul{list-style: outside !important;}
+	.btn-z a{display:block;}
+	.why-au div.col{flex-basis:auto !important}
+	.flogot{margin: 0 auto !important}
+	.fadr{margin: 0 auto !important;}
+	header{margin-top:0 !important;}
+	.hlogo img{width: 60% !important;
+    text-align: center !important;
+    padding: 15px 0 !important;}
+	.hlogo{text-align: center;}
+	.reload p.zag{font-size:3rem !important; margin-top: 20px;}
+	.reload a{display: inline-block;
+    margin-bottom: 20px;}
+	.menu-contact{display: block;
+    text-align: center;}
+	.menu-contact a{display: inline-block;}
+	.navbar-toggler{display:none !important;}
+	.collapse{display: block !important;
+    text-align: center;
+    padding: 0 !important;}
+	header span a img{width: 40px;
+    margin: 10px;}
+}
